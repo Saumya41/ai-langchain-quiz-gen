@@ -4,7 +4,6 @@ import streamlit as st
 # from langchain_groq import ChatGroq
 from langchain import LLMChain, PromptTemplate
 import json
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai.chat_models import ChatOpenAI
 
 from dotenv import load_dotenv
